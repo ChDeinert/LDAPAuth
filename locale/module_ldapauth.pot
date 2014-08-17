@@ -1,0 +1,557 @@
+# Automatic generated POT-File.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-17 13:26:53+0200\n"
+"PO-Revision-Date: 2014-08-17 13:26:53+0200\n"
+"Last-Translator: \n"
+"Language-Team:  \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Admin.php:28
+msgid "View LDAPAuth Configuration"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Admin.php:33
+msgid "LDAP-Profile Mapping"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Admin.php:38
+msgid "Update users"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Admin.php:43
+msgid "Group import"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Admin.php:48
+msgid "User import"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:233
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:224
+#: modules/LDAPAuth/lib/LDAPAuth/Api/User.php:428
+#: modules/LDAPAuth/lib/LDAPAuth/Api/User.php:419
+msgid "Warning! The user account was created, but there was a problem adding the account to the default group."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:541
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:540
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:35
+#: modules/LDAPAuth/templates/admin/userimport.tpl:29
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:29
+#: modules/LDAPAuth/templates/auth/loginformfields_default_default.tpl:22
+#: modules/LDAPAuth/templates/block/login.tpl:43
+msgid "User name"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:36
+msgid "User name and password"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:371
+msgid "Sorry! The e-mail address or password you entered was incorrect."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:373
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:500
+msgid "Sorry! The user name or password you entered was incorrect."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:458
+msgid "A user name was not provided in a call to %1$s."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:550
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:551
+msgid "E-mail Address"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:521
+msgid "An invalid parameter array was received."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:527
+msgid "An invalid user id was received."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Block/Login.php:35
+msgid "Log-in"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Block/Login.php:36
+msgid "Log-in block"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Controller/Authentication.php:175
+msgid "Please provide a password."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Controller/Authentication.php:179
+msgid "Please provide a user name and password."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Controller/Authentication.php:183
+msgid "Please provide a user name."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Version.php:27
+msgid "Provides LDAP authentication for Zikula user accounts with fallback if LDAP Server not avaiable."
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/addProfileMapping.tpl:16
+msgid "Add profile mapping"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/deleteProfileMapping.tpl:28
+#: modules/LDAPAuth/templates/admin/part/form.profileMapping.tpl:5
+msgid "Active"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/deleteProfileMapping.tpl:32
+#: modules/LDAPAuth/templates/admin/part/form.profileMapping.tpl:9
+msgid "Property in Profile"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/deleteProfileMapping.tpl:42
+#: modules/LDAPAuth/templates/admin/part/form.profileMapping.tpl:19
+msgid "LDAP Attibute"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/addProfileMapping.tpl:29
+#: modules/LDAPAuth/templates/admin/deleteProfileMapping.tpl:56
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:136
+#: modules/LDAPAuth/templates/admin/editProfileMapping.tpl:30
+#: modules/LDAPAuth/templates/admin/groupimport.tpl:54
+#: modules/LDAPAuth/templates/admin/userimport.tpl:65
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:62
+msgid "Cancel"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/deleteProfileMapping.tpl:16
+msgid "Delete profile mapping with ID %s"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/deleteProfileMapping.tpl:25
+#: modules/LDAPAuth/templates/admin/part/form.profileMapping.tpl:2
+msgid "Mapping"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:16
+msgid "Edit LDAPAuth Configuration with ID %s"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:21
+msgid "Configuration Updated"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:25
+msgid "Could not update Configuration"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:29
+msgid "Error in input-data"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:38
+msgid "Configurations"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:41
+#: modules/LDAPAuth/templates/admin/view.tpl:23
+msgid "Active Configuration"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:50
+#: modules/LDAPAuth/templates/admin/view.tpl:32
+msgid "Support Profile module"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:59
+#: modules/LDAPAuth/templates/admin/view.tpl:41
+msgid "Account Suffix"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:64
+#: modules/LDAPAuth/templates/admin/view.tpl:46
+msgid "Base DN"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:69
+#: modules/LDAPAuth/templates/admin/view.tpl:51
+msgid "Domain Controllers"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:69
+#: modules/LDAPAuth/templates/admin/view.tpl:51
+msgid "(separated with , )"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:74
+#: modules/LDAPAuth/templates/admin/view.tpl:56
+msgid "Username"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:79
+#: modules/LDAPAuth/templates/admin/view.tpl:61
+#: modules/LDAPAuth/templates/auth/loginformfields_default_default.tpl:39
+#: modules/LDAPAuth/templates/block/login.tpl:61
+msgid "Password"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:84
+#: modules/LDAPAuth/templates/admin/view.tpl:66
+msgid "Real Primarygroup"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:93
+#: modules/LDAPAuth/templates/admin/view.tpl:75
+msgid "Use SSL"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:102
+#: modules/LDAPAuth/templates/admin/view.tpl:84
+msgid "Use TSL"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:111
+#: modules/LDAPAuth/templates/admin/view.tpl:93
+msgid "Recursive groups"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:120
+#: modules/LDAPAuth/templates/admin/view.tpl:102
+msgid "AD Port"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:125
+#: modules/LDAPAuth/templates/admin/view.tpl:107
+msgid "SSO"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/editProfileMapping.tpl:16
+msgid "Edit profile mapping with ID %s"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/groupimport.tpl:16
+msgid "AD Groups to import"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/groupimport.tpl:19
+msgid "AD Groups"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/groupimport.tpl:29
+msgid "Group name"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/groupimport.tpl:32
+msgid "Group description"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/groupimport.tpl:49
+#: modules/LDAPAuth/templates/admin/userimport.tpl:60
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:57
+msgid "Check all"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/groupimport.tpl:50
+#: modules/LDAPAuth/templates/admin/userimport.tpl:61
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:58
+msgid "Uncheck all"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userimport.tpl:16
+msgid "AD Users to import"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userimport.tpl:19
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:20
+msgid "AD Users"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userimport.tpl:32
+msgid "User real name"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userimport.tpl:35
+msgid "User email"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userimport.tpl:45
+msgid "Inactive user"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userimport.tpl:54
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:51
+msgid "No Users found."
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:16
+msgid "AD Users to update"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/view.tpl:16
+msgid "LDAPAuth Configuration"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/view.tpl:20
+msgid "Configuration"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/view.tpl:116
+msgid "Edit Configuration"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/viewProfileMapping.tpl:16
+msgid "LDAPAuth Profile Mapping"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/viewProfileMapping.tpl:23
+msgid "Add Mapping"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/viewProfileMapping.tpl:31
+msgid "Available mappings"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/viewProfileMapping.tpl:36
+msgid "ID"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/viewProfileMapping.tpl:37
+msgid "Mapping active"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/viewProfileMapping.tpl:38
+msgid "Profile property ID"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/viewProfileMapping.tpl:39
+msgid "LDAP attribute"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/viewProfileMapping.tpl:63
+msgid "No Mappings available"
+msgstr ""
+
+#: modules/LDAPAuth/templates/auth/authenticationmethodselector_default_default.tpl:8
+msgid "LDAP User name and password"
+msgstr ""
+
+#: modules/LDAPAuth/templates/auth/loginformfields_default_default.tpl:2
+#: modules/LDAPAuth/templates/block/login.tpl:22
+msgid "User account"
+msgstr ""
+
+#: modules/LDAPAuth/templates/auth/loginformfields_default_default.tpl:39
+#: modules/LDAPAuth/templates/block/login.tpl:61
+msgid "Current password"
+msgstr ""
+
+#: modules/LDAPAuth/templates/auth/loginformfields_default_default.tpl:41
+#: modules/LDAPAuth/templates/block/login.tpl:63
+msgid "Caps Lock is on!"
+msgstr ""
+
+#: modules/LDAPAuth/templates/block/login.tpl:70
+msgid "Keep me logged in on this computer"
+msgstr ""
+
+#: modules/LDAPAuth/templates/block/login.tpl:83
+msgid "Log in"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/importGroups.tpl:35
+#: modules/LDAPAuth/templates/admin/importUsers.tpl:35
+#: modules/LDAPAuth/templates/admin/updateADUsers.tpl:34
+#: modules/LDAPAuth/templates/admin/updateusers.tpl:35
+msgid "OK"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/addProfileMapping.tpl:27
+#: modules/LDAPAuth/templates/admin/editconfig.tpl:135
+#: modules/LDAPAuth/templates/admin/editProfileMapping.tpl:28
+msgid "Save"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:65
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Authentication.php:92
+msgid "An invalid ++++####method++++#### parameter was received."
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Group.php:48
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Group.php:84
+#: modules/LDAPAuth/lib/LDAPAuth/Api/User.php:182
+#: modules/LDAPAuth/lib/LDAPAuth/Api/User.php:281
+#: modules/LDAPAuth/lib/LDAPAuth/Api/User.php:350
+#: modules/LDAPAuth/lib/LDAPAuth/Api/User.php:448
+msgid "Warning! Connection to AD could not be established!"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/Group.php:127
+msgid "Warning! Could not add User %s to group!"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:88
+msgid "Profile mapping saved!"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:90
+msgid "Error! Profile mapping could not be saved!"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:110
+msgid "Profile mapping was deleted!"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:114
+msgid "Error! Profile mapping could not be removed!"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:128
+msgid "CN"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:129
+msgid "SN"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:130
+msgid "Telephonenumber"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:131
+msgid "Facsimiletelephonenumber"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:132
+msgid "Givenname"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:133
+msgid "Distinguishedname"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:134
+msgid "Createdate"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:135
+msgid "Changedate"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:136
+msgid "Displayname"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:137
+msgid "Department"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:138
+msgid "Company"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:139
+msgid "Name"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:140
+msgid "Countrycode"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:141
+msgid "SAMAccountname"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:142
+msgid "Userprincipalname"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:143
+msgid "Objectcategory"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:144
+msgid "Mail"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/ProfileMapping.php:145
+msgid "Manager"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Api/User.php:295
+msgid "Warning! Profile data could not be updated!"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Controller/Authentication.php:86
+#: modules/LDAPAuth/lib/LDAPAuth/Controller/Authentication.php:24
+msgid "An invalid ++++####$args++++#### parameter was received."
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/deleteProfileMapping.tpl:54
+msgid "Delete"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/groupimport.tpl:53
+#: modules/LDAPAuth/templates/admin/userimport.tpl:64
+msgid "import"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/importGroups.tpl:21
+msgid "Import AD Groups"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/importGroups.tpl:24
+msgid "Current Group:"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/importUsers.tpl:21
+msgid "Import AD Users"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/importUsers.tpl:24
+msgid "Current User:"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/updateADUsers.tpl:21
+msgid "Update AD Users"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:32
+msgid "Last update"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:35
+msgid "Last Change in AD"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/userupdate.tpl:61
+msgid "Update"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Controller/Admin.php:284
+msgid "No Users to import selected!"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Controller/Admin.php:323
+msgid "No groups to import selected!"
+msgstr ""
+
+#: modules/LDAPAuth/templates/admin/updateusers.tpl:21
+msgid "Updating users"
+msgstr ""
+
+#: modules/LDAPAuth/lib/LDAPAuth/Controller/Admin.php:245
+msgid "No Users to update selected!"
+msgstr ""
+
