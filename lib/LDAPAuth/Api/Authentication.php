@@ -157,6 +157,32 @@ class LDAPAuth_Api_Authentication extends Zikula_Api_AbstractAuthentication
     }
 
     /**
+     * Retrieves an authentication method defined by this module.
+     *
+     * Parameters passed in $args:
+     * ---------------------------
+     * string 'method' The name of the authentication method.
+     *
+     * @param array $args All arguments passed to this function.
+     *
+     * @return array An array containing the authentication method requested.
+     *
+     * @throws \InvalidArgumentException Thrown if invalid parameters are sent in $args.
+     */
+    public function getAuthenticationMethod(array $args)
+    {
+        if (!isset($args['method'])) {
+            throw new \InvalidArgumentException($this->__f('An invalid value for the \'method\' parameter was received (\'%1$s\').', array($args['method'])));
+        }
+
+        if (!isset($this->authenticationMethods[($args['method'])])) {
+            throw new \InvalidArgumentException($this->__f('The requested authentication method \'%1$s\' does not exist.', array($args['method'])));
+        }
+
+        return $this->authenticationMethods[($args['method'])];
+    }
+
+    /**
      * Registers a user account record or a user registration request with the authentication method
      *
      * @see Zikula_Api_AbstractAuthentication::register()
