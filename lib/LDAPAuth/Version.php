@@ -35,7 +35,7 @@ class LDAPAuth_Version extends Zikula_AbstractVersion
                 'LDAPAuth::' => 'User ID::',
             ],
             'core_min' => '1.3.5', // Fixed to 1.3.x range
-            'core_max' => '1.3.99', // Fixed to 1.3.x range
+            'core_max' => '1.4.99', // Fixed to 1.4.x range
         ];
 
         return $meta;
