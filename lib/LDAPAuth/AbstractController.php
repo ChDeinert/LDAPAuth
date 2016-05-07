@@ -58,7 +58,7 @@ abstract class LDAPAuth_AbstractController extends Zikula_AbstractController
      */
     protected function getAny(array &$argArray)
     {
-        $this->get($argArray, 'any');
+        $this->getToArrayLdap($argArray, 'any');
     }
 
     /**
@@ -69,7 +69,7 @@ abstract class LDAPAuth_AbstractController extends Zikula_AbstractController
      */
     protected function getPost(array &$argArray)
     {
-        self::get($argArray, 'post');
+        $this->getToArrayLdap($argArray, 'post');
     }
 
     /**
@@ -80,7 +80,7 @@ abstract class LDAPAuth_AbstractController extends Zikula_AbstractController
      */
     protected function getGet(array &$argArray)
     {
-        $this->get($argArray, 'get');
+        $this->getToArrayLdap($argArray, 'get');
     }
 
     /**
@@ -91,7 +91,7 @@ abstract class LDAPAuth_AbstractController extends Zikula_AbstractController
      * @throws Zikula_Exception_Fatal Thrown if $argArray is not an array
      * @return void
      */
-    protected function get(array &$argArray, $option = 'any')
+    protected function getToArrayLdap(array &$argArray, $option = 'any')
     {
         if (!is_array($argArray)) {
             throw new Zikula_Exception_Fatal();
@@ -103,7 +103,7 @@ abstract class LDAPAuth_AbstractController extends Zikula_AbstractController
             $argArray[$key] = array_key_exists($key, $collection) ? $collection[$key] : $val;
         }
     }
-
+    
     /**
      * Returns a Collection of all Input Parameters.
      *
