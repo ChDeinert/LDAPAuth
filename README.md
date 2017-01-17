@@ -1,5 +1,7 @@
 # LDAPAuth
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 A LDAP-Authentication Module for the *[Zikula Application Framework](http://www.zikula.org)* using [ADLDAP](https://github.com/adldap/adLDAP)
 
 
